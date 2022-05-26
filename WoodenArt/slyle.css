@@ -1,0 +1,54 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f1eedb;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+.header-background{
+    background-color: #4d443d;
+}
+ul {
+    list-style: none;
+    padding: 0;
+  }
+a{
+text-decoration: none;
+}
+
+.header-nav > ul > li > a{
+color: #f1eedb;
+display: block;
+font-size: 22px;
+line-height: 44px;
+text-transform: uppercase;
+cursor: pointer;
+}
+
+.logo_img{
+    background-image: url(./assets/img/drawn-ring-hand-drawn.svg);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+    width: 100px;
+height: 100px;
+}
+
+.main-background{
+background-image:url(./assets/img/texture-light.jpg);
+background-size: cover;
+background-attachment: fixed;
+width: 100%;
+}
+.footer-background{
+    background-image:url(./assets/img/footer.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
